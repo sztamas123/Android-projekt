@@ -8,3 +8,5 @@ com/example/restaurantapp/data/RestaurantDao_Impl.java
  com.example.restaurantapp.data.RestaurantDao_Impl$1
  com.example.restaurantapp.data.RestaurantDao_Impl$2
  com.example.restaurantapp.data.RestaurantDao_Impl$3
+ com.example.restaurantapp.data.RestaurantDao_Impl$4
+ com.example.restaurantapp.data.RestaurantDao_Impl$5

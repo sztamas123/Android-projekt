@@ -28,6 +28,10 @@
         "source": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/res/merged/debug/layout_custom_row.xml.flat",
+        "source": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/res/layout/custom_row.xml"
+    },
+    {
         "merged": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
@@ -38,6 +42,10 @@
     {
         "merged": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/res/merged/debug/layout_fragment_update.xml.flat",
+        "source": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/res/layout/fragment_update.xml"
     },
     {
         "merged": "/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",

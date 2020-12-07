@@ -1,10 +1,8 @@
 package com.example.restaurantapp.data
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
+import com.example.restaurantapp.model.Restaurant
 
 
 @Dao
@@ -14,4 +12,7 @@ interface RestaurantDao {
 
     @Query("SELECT * FROM  restaurant_table ORDER BY id ASC")
     fun readAllData(): LiveData<List<Restaurant>>
+
+    @Update
+    suspend fun updateRestaurant(restaurant: Restaurant)
 }

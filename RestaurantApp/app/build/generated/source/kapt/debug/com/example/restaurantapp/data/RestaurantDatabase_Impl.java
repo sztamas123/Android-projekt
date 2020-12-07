@@ -86,7 +86,7 @@ public final class RestaurantDatabase_Impl extends RestaurantDatabase {
         final TableInfo _infoRestaurantTable = new TableInfo("restaurant_table", _columnsRestaurantTable, _foreignKeysRestaurantTable, _indicesRestaurantTable);
         final TableInfo _existingRestaurantTable = TableInfo.read(_db, "restaurant_table");
         if (! _infoRestaurantTable.equals(_existingRestaurantTable)) {
-          return new RoomOpenHelper.ValidationResult(false, "restaurant_table(com.example.restaurantapp.data.Restaurant).\n"
+          return new RoomOpenHelper.ValidationResult(false, "restaurant_table(com.example.restaurantapp.model.Restaurant).\n"
                   + " Expected:\n" + _infoRestaurantTable + "\n"
                   + " Found:\n" + _existingRestaurantTable);
         }

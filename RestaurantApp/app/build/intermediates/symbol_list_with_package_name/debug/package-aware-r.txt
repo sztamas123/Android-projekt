@@ -1678,12 +1678,14 @@ id action_context_bar
 id action_divider
 id action_image
 id action_listFragment_to_addFragment
+id action_listFragment_to_updateFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_text
+id action_updateFragment_to_listFragment
 id actions
 id activity_chooser_view_content
 id add
@@ -1692,6 +1694,7 @@ id addRestaurantAddress_et
 id addRestaurantName_et
 id addRestaurantPrice_et
 id add_btn
+id address_txt
 id alertTitle
 id aligned
 id all
@@ -1804,6 +1807,7 @@ id homeAsUp
 id honorRequest
 id icon
 id icon_group
+id id_txt
 id ifRoom
 id ignore
 id ignoreRequest
@@ -1886,6 +1890,7 @@ id percent
 id pin
 id position
 id postLayout
+id price_txt
 id progress_circular
 id progress_horizontal
 id radio
@@ -1897,6 +1902,7 @@ id right
 id right_icon
 id right_side
 id rounded
+id rowLayout
 id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
@@ -1983,6 +1989,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_txt
 id toggle
 id top
 id topPanel
@@ -1999,6 +2006,11 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateFragment
+id updateRestaurantAddress_et
+id updateRestaurantName_et
+id updateRestaurantPrice_et
+id update_btn
 id useLogo
 id view_offset_helper
 id visible
@@ -2071,6 +2083,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout custom_dialog
+layout custom_row
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2088,6 +2101,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add
 layout fragment_list
+layout fragment_update
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

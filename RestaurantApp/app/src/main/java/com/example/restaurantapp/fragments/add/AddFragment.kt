@@ -8,12 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.restaurantapp.R
-import com.example.restaurantapp.data.Restaurant
-import com.example.restaurantapp.data.RestaurantViewModel
+import com.example.restaurantapp.model.Restaurant
+import com.example.restaurantapp.viewmodel.RestaurantViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
 
@@ -44,7 +43,12 @@ class AddFragment : Fragment() {
         val price = addRestaurantPrice_et.text
 
         if (inputCheck(title, address, price)){
-            val restaurant = Restaurant(0, title, address, Integer.parseInt(price.toString()))
+            val restaurant = Restaurant(
+                0,
+                title,
+                address,
+                Integer.parseInt(price.toString())
+            )
 
             mRestaurantViewModel.addRestaurant(restaurant)
             Toast.makeText(requireContext(), "Succesfully added new restaurant!", Toast.LENGTH_LONG).show()

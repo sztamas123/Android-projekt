@@ -3,12 +3,14 @@ package com.example.restaurantapp.data;
 import android.database.Cursor;
 import androidx.lifecycle.LiveData;
 import androidx.room.CoroutinesRoom;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
+import com.example.restaurantapp.model.Restaurant;
 import java.lang.Exception;
 import java.lang.Object;
 import java.lang.Override;
@@ -25,6 +27,8 @@ public final class RestaurantDao_Impl implements RestaurantDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<Restaurant> __insertionAdapterOfRestaurant;
+
+  private final EntityDeletionOrUpdateAdapter<Restaurant> __updateAdapterOfRestaurant;
 
   public RestaurantDao_Impl(RoomDatabase __db) {
     this.__db = __db;
@@ -50,6 +54,29 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         stmt.bindLong(4, value.getPrice());
       }
     };
+    this.__updateAdapterOfRestaurant = new EntityDeletionOrUpdateAdapter<Restaurant>(__db) {
+      @Override
+      public String createQuery() {
+        return "UPDATE OR ABORT `restaurant_table` SET `id` = ?,`title` = ?,`address` = ?,`price` = ? WHERE `id` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, Restaurant value) {
+        stmt.bindLong(1, value.getId());
+        if (value.getTitle() == null) {
+          stmt.bindNull(2);
+        } else {
+          stmt.bindString(2, value.getTitle());
+        }
+        if (value.getAddress() == null) {
+          stmt.bindNull(3);
+        } else {
+          stmt.bindString(3, value.getAddress());
+        }
+        stmt.bindLong(4, value.getPrice());
+        stmt.bindLong(5, value.getId());
+      }
+    };
   }
 
   @Override
@@ -60,6 +87,23 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         __db.beginTransaction();
         try {
           __insertionAdapterOfRestaurant.insert(restaurant);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, p1);
+  }
+
+  @Override
+  public Object updateRestaurant(final Restaurant restaurant, final Continuation<? super Unit> p1) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __updateAdapterOfRestaurant.handle(restaurant);
           __db.setTransactionSuccessful();
           return Unit.INSTANCE;
         } finally {
