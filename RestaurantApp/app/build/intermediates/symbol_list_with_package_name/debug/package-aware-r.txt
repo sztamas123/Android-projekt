@@ -1578,6 +1578,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_add
+drawable ic_baseline_delete_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1830,6 +1831,7 @@ id listMode
 id list_item
 id masked
 id media_actions
+id menu_delete
 id message
 id middle
 id mini
@@ -2163,6 +2165,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu delete_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation my_nav

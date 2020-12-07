@@ -7,6 +7,7 @@ import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
+import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
@@ -28,7 +29,11 @@ public final class RestaurantDao_Impl implements RestaurantDao {
 
   private final EntityInsertionAdapter<Restaurant> __insertionAdapterOfRestaurant;
 
+  private final EntityDeletionOrUpdateAdapter<Restaurant> __deletionAdapterOfRestaurant;
+
   private final EntityDeletionOrUpdateAdapter<Restaurant> __updateAdapterOfRestaurant;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteAllRestaurant;
 
   public RestaurantDao_Impl(RoomDatabase __db) {
     this.__db = __db;
@@ -54,6 +59,17 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         stmt.bindLong(4, value.getPrice());
       }
     };
+    this.__deletionAdapterOfRestaurant = new EntityDeletionOrUpdateAdapter<Restaurant>(__db) {
+      @Override
+      public String createQuery() {
+        return "DELETE FROM `restaurant_table` WHERE `id` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, Restaurant value) {
+        stmt.bindLong(1, value.getId());
+      }
+    };
     this.__updateAdapterOfRestaurant = new EntityDeletionOrUpdateAdapter<Restaurant>(__db) {
       @Override
       public String createQuery() {
@@ -77,6 +93,13 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         stmt.bindLong(5, value.getId());
       }
     };
+    this.__preparedStmtOfDeleteAllRestaurant = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "DELETE FROM restaurant_table";
+        return _query;
+      }
+    };
   }
 
   @Override
@@ -87,6 +110,23 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         __db.beginTransaction();
         try {
           __insertionAdapterOfRestaurant.insert(restaurant);
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+        }
+      }
+    }, p1);
+  }
+
+  @Override
+  public Object deleteRestaurant(final Restaurant restaurant, final Continuation<? super Unit> p1) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        __db.beginTransaction();
+        try {
+          __deletionAdapterOfRestaurant.handle(restaurant);
           __db.setTransactionSuccessful();
           return Unit.INSTANCE;
         } finally {
@@ -111,6 +151,25 @@ public final class RestaurantDao_Impl implements RestaurantDao {
         }
       }
     }, p1);
+  }
+
+  @Override
+  public Object deleteAllRestaurant(final Continuation<? super Unit> p0) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAllRestaurant.acquire();
+        __db.beginTransaction();
+        try {
+          _stmt.executeUpdateDelete();
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+          __preparedStmtOfDeleteAllRestaurant.release(_stmt);
+        }
+      }
+    }, p0);
   }
 
   @Override

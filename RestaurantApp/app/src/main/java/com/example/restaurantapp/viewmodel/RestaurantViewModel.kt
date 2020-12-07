@@ -37,4 +37,16 @@ class RestaurantViewModel(application: Application): AndroidViewModel(applicatio
             repository.updateRestaurant(restaurant)
         }
     }
+
+    fun deleteRestaurant(restaurant: Restaurant){
+        viewModelScope.launch(Dispatchers.IO){
+            repository.deleteRestaurant(restaurant)
+        }
+    }
+
+    fun deleteAllRestaurant(){
+        viewModelScope.launch(Dispatchers.IO){
+            repository.deleteAllRestaurant()
+        }
+    }
 }

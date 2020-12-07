@@ -10,3 +10,7 @@ com/example/restaurantapp/data/RestaurantDao_Impl.java
  com.example.restaurantapp.data.RestaurantDao_Impl$3
  com.example.restaurantapp.data.RestaurantDao_Impl$4
  com.example.restaurantapp.data.RestaurantDao_Impl$5
+ com.example.restaurantapp.data.RestaurantDao_Impl$6
+ com.example.restaurantapp.data.RestaurantDao_Impl$7
+ com.example.restaurantapp.data.RestaurantDao_Impl$8
+ com.example.restaurantapp.data.RestaurantDao_Impl$9

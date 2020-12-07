@@ -1,12 +1,11 @@
 package com.example.restaurantapp.fragments.update
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
@@ -41,6 +40,10 @@ class UpdateFragment : Fragment() {
             updateItem()
         }
 
+        //MEnu
+        setHasOptionsMenu(true)
+
+
         return view
     }
 
@@ -67,4 +70,27 @@ class UpdateFragment : Fragment() {
         return !(TextUtils.isEmpty(title) && TextUtils.isEmpty(address) && price.isEmpty())
     }
 
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.delete_menu, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.menu_delete){
+            deleteRestaurant()
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun deleteRestaurant() {
+        val builder = AlertDialog.Builder(requireContext())
+        builder.setPositiveButton("Yes"){_, _ ->
+            mRestaurantViewModel.deleteRestaurant(args.currentRestaurant)
+            Toast.makeText(requireContext(), "Succesfully removed: ${args.currentRestaurant.title}",Toast.LENGTH_SHORT).show()
+        findNavController().navigate(R.id.action_updateFragment_to_listFragment)
+        }
+        builder.setNegativeButton("No"){_, _ -> }
+        builder.setTitle("Delete ${args.currentRestaurant.title}?")
+        builder.setMessage("Are you sure you want to delete ${args.currentRestaurant.title}?")
+        builder.create().show()
+    }
 }

@@ -15,4 +15,11 @@ interface RestaurantDao {
 
     @Update
     suspend fun updateRestaurant(restaurant: Restaurant)
+
+    @Delete
+    suspend fun deleteRestaurant(restaurant: Restaurant)
+
+    @Query("DELETE FROM restaurant_table")
+    suspend fun deleteAllRestaurant()
+
 }
