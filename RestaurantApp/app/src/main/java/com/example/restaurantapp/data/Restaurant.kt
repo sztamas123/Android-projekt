@@ -10,8 +10,8 @@ data class Restaurant(
     val id: Int,
     val title: String,
     val address: String,
-    val price: Int,
-    val image: Image
+    val price: Int
+    //val image: Image
 )
 
 

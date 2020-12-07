@@ -1,0 +1,7 @@
+#Mon Dec 07 11:12:52 EET 2020
+base.0=/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/tamas/Desktop/Android-projekt/RestaurantApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

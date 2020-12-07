@@ -1,0 +1,279 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.room:room-ktx:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/1f57a6ec18c9840166c9072c922ecd20/jetified-room-ktx-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/1109b9b452d1b319ff3bbfd1587ac42e/navigation-fragment-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/7901e131681e0a6b762a821a264c302a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/eb4540f0ca214e766286ea41a349c235/navigation-runtime-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/9c961e86f309b199aa2ef216abe99583/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f741ac3dbebca998f681c1441255c198/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a4043c2ef541ff5362522e71c43cb79c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0b469e9a3c6ec1e63a5b1ca95c4e8a34/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/b5034a82ca61f50b32f3ad9576e01462/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/6563c343f2473f05a1fe0fc3e2b1b82e/navigation-common-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c60e5771eb33e375c4d4e0d0eb637953/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/9f3f88c25bdf29c84ef0045bfdea06e5/navigation-ui-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a350148e3063b4e4a4758d65aefc3450/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/92f13edf911730bfa930097939fcb388/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/216f44b6f3ace9d8f59f00cca10d1f81/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a8acdc5db548f9043a254a739a18717c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0ac7efb1b79bac32f648b7af4f2d7b38/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/1771320f01f20ce2a281584f85e5c08d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/df201146f4a04e028588425d6e1f2bab/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c7fed4b8505647632f3a4013fb2f1335/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/028f2ab45bdba707e9617f58d0b0d56a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5c3b07ccd4294e12caadc82a625ef22b/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d5fb3e7fceff15b4f67a1624479dbd61/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5d02e43e10dc7dd3665cd848a7f0a84c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4ee204a1a0d9751ce063df35271a51c3/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/6ba9227a37e0cede5eca09d4cc93cfa9/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9fb39c55ad9be664075cb37ac0bb6564/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5b9784af1ebd57645cfa243350268aae/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/f9725301d5738f9cd2a681696dbe3b60/navigation-fragment-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/4a2f1d97eef3cbb80b9a05095576cd51/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/bbe31031148801298fb4a2e115432d89/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/50f509ea9c6cf1417799f6321d63ab55/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d606683c4a73961c1d0670cb1e056243/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9b89af1afcfd9c4df43b185daac414a9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/80191ab3002954f50bd135c0a15d5c27/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/b3f2ad4f6ba92aec81ae7bc9479946f0/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/db9b0cb444d438383c7f8cebdaac999a/navigation-runtime-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ab854aaba3194809d15ee25e141f8b60/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/5769dd6b60581d23edc979f021edb8ca/navigation-common-2.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/cc4a4ed4efb1aa92a4d8a75109c9e3b3/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f3d79ca7453bc9da1735a27805f6c090/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/2650d9e79b51fb7bb4f71a9e840d7d07/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a95b8316821f9c1ca4ca0e3110517532/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dca00f702d781e560f73162c14cab047/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/914a8a627179d8a65b49f8892974cffe/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/58ceb70d10b02865691d4b1a50dfa59a/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5cf5f9adc9fc589dca2e8dafd3175208/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/81566e59b9a1328a4074793687fde9e4/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/e7b9939e9f288b6108820e9c260ed7bb/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a309749916346444ecb5abcce925ab7f/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ea54b510bd3c3e90487a4927afa4d882/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f08a7f2cad3e4425108bd13ec6966902/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/be2d791a75671c3d134521865e173e7e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4f7dda6a1cdb80cd8dc72b1b65ba5ed0/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dfdb6e42af4034f41409a9f1bc722ac4/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/49ba1c9dae9dd30eaea3f647971ea963/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/657a4088f679695e591cf470a2220857/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.2.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a350148e3063b4e4a4758d65aefc3450/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a350148e3063b4e4a4758d65aefc3450/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/92f13edf911730bfa930097939fcb388/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/92f13edf911730bfa930097939fcb388/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0ac7efb1b79bac32f648b7af4f2d7b38/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0ac7efb1b79bac32f648b7af4f2d7b38/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f08a7f2cad3e4425108bd13ec6966902/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f08a7f2cad3e4425108bd13ec6966902/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:11:9-51
+activity#com.example.restaurantapp.MainActivity
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.room:room-ktx:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/1f57a6ec18c9840166c9072c922ecd20/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/1f57a6ec18c9840166c9072c922ecd20/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/1109b9b452d1b319ff3bbfd1587ac42e/navigation-fragment-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/1109b9b452d1b319ff3bbfd1587ac42e/navigation-fragment-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/7901e131681e0a6b762a821a264c302a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/7901e131681e0a6b762a821a264c302a/navigation-ui-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/eb4540f0ca214e766286ea41a349c235/navigation-runtime-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/eb4540f0ca214e766286ea41a349c235/navigation-runtime-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/9c961e86f309b199aa2ef216abe99583/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/9c961e86f309b199aa2ef216abe99583/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f741ac3dbebca998f681c1441255c198/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f741ac3dbebca998f681c1441255c198/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a4043c2ef541ff5362522e71c43cb79c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a4043c2ef541ff5362522e71c43cb79c/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0b469e9a3c6ec1e63a5b1ca95c4e8a34/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0b469e9a3c6ec1e63a5b1ca95c4e8a34/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/b5034a82ca61f50b32f3ad9576e01462/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/b5034a82ca61f50b32f3ad9576e01462/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/6563c343f2473f05a1fe0fc3e2b1b82e/navigation-common-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/6563c343f2473f05a1fe0fc3e2b1b82e/navigation-common-ktx-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c60e5771eb33e375c4d4e0d0eb637953/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c60e5771eb33e375c4d4e0d0eb637953/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/9f3f88c25bdf29c84ef0045bfdea06e5/navigation-ui-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/9f3f88c25bdf29c84ef0045bfdea06e5/navigation-ui-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a350148e3063b4e4a4758d65aefc3450/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a350148e3063b4e4a4758d65aefc3450/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/92f13edf911730bfa930097939fcb388/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/92f13edf911730bfa930097939fcb388/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/216f44b6f3ace9d8f59f00cca10d1f81/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/216f44b6f3ace9d8f59f00cca10d1f81/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a8acdc5db548f9043a254a739a18717c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a8acdc5db548f9043a254a739a18717c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0ac7efb1b79bac32f648b7af4f2d7b38/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/0ac7efb1b79bac32f648b7af4f2d7b38/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/1771320f01f20ce2a281584f85e5c08d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/1771320f01f20ce2a281584f85e5c08d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/df201146f4a04e028588425d6e1f2bab/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/df201146f4a04e028588425d6e1f2bab/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c7fed4b8505647632f3a4013fb2f1335/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/c7fed4b8505647632f3a4013fb2f1335/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/028f2ab45bdba707e9617f58d0b0d56a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/028f2ab45bdba707e9617f58d0b0d56a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5c3b07ccd4294e12caadc82a625ef22b/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5c3b07ccd4294e12caadc82a625ef22b/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d5fb3e7fceff15b4f67a1624479dbd61/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d5fb3e7fceff15b4f67a1624479dbd61/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5d02e43e10dc7dd3665cd848a7f0a84c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5d02e43e10dc7dd3665cd848a7f0a84c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4ee204a1a0d9751ce063df35271a51c3/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4ee204a1a0d9751ce063df35271a51c3/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/6ba9227a37e0cede5eca09d4cc93cfa9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/6ba9227a37e0cede5eca09d4cc93cfa9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9fb39c55ad9be664075cb37ac0bb6564/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9fb39c55ad9be664075cb37ac0bb6564/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5b9784af1ebd57645cfa243350268aae/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5b9784af1ebd57645cfa243350268aae/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/f9725301d5738f9cd2a681696dbe3b60/navigation-fragment-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/f9725301d5738f9cd2a681696dbe3b60/navigation-fragment-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/4a2f1d97eef3cbb80b9a05095576cd51/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/tamas/.gradle/caches/transforms-2/files-2.1/4a2f1d97eef3cbb80b9a05095576cd51/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/bbe31031148801298fb4a2e115432d89/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/bbe31031148801298fb4a2e115432d89/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/50f509ea9c6cf1417799f6321d63ab55/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/50f509ea9c6cf1417799f6321d63ab55/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d606683c4a73961c1d0670cb1e056243/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/d606683c4a73961c1d0670cb1e056243/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9b89af1afcfd9c4df43b185daac414a9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/9b89af1afcfd9c4df43b185daac414a9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/80191ab3002954f50bd135c0a15d5c27/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/80191ab3002954f50bd135c0a15d5c27/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/b3f2ad4f6ba92aec81ae7bc9479946f0/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/b3f2ad4f6ba92aec81ae7bc9479946f0/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/db9b0cb444d438383c7f8cebdaac999a/navigation-runtime-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/db9b0cb444d438383c7f8cebdaac999a/navigation-runtime-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ab854aaba3194809d15ee25e141f8b60/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ab854aaba3194809d15ee25e141f8b60/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/5769dd6b60581d23edc979f021edb8ca/navigation-common-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.2.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/5769dd6b60581d23edc979f021edb8ca/navigation-common-2.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/tamas/.gradle/caches/transforms-2/files-2.1/214c58ba9b4e32f7a7ee6b372aa2c911/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/cc4a4ed4efb1aa92a4d8a75109c9e3b3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/cc4a4ed4efb1aa92a4d8a75109c9e3b3/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f3d79ca7453bc9da1735a27805f6c090/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f3d79ca7453bc9da1735a27805f6c090/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/2650d9e79b51fb7bb4f71a9e840d7d07/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/2650d9e79b51fb7bb4f71a9e840d7d07/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a95b8316821f9c1ca4ca0e3110517532/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /home/tamas/.gradle/caches/transforms-2/files-2.1/a95b8316821f9c1ca4ca0e3110517532/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dca00f702d781e560f73162c14cab047/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dca00f702d781e560f73162c14cab047/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/914a8a627179d8a65b49f8892974cffe/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/914a8a627179d8a65b49f8892974cffe/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/58ceb70d10b02865691d4b1a50dfa59a/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/58ceb70d10b02865691d4b1a50dfa59a/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5cf5f9adc9fc589dca2e8dafd3175208/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/5cf5f9adc9fc589dca2e8dafd3175208/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/81566e59b9a1328a4074793687fde9e4/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/81566e59b9a1328a4074793687fde9e4/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/e7b9939e9f288b6108820e9c260ed7bb/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/e7b9939e9f288b6108820e9c260ed7bb/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a309749916346444ecb5abcce925ab7f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/a309749916346444ecb5abcce925ab7f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ea54b510bd3c3e90487a4927afa4d882/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/ea54b510bd3c3e90487a4927afa4d882/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f08a7f2cad3e4425108bd13ec6966902/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/f08a7f2cad3e4425108bd13ec6966902/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/be2d791a75671c3d134521865e173e7e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/be2d791a75671c3d134521865e173e7e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4f7dda6a1cdb80cd8dc72b1b65ba5ed0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/4f7dda6a1cdb80cd8dc72b1b65ba5ed0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dfdb6e42af4034f41409a9f1bc722ac4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/dfdb6e42af4034f41409a9f1bc722ac4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/49ba1c9dae9dd30eaea3f647971ea963/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/49ba1c9dae9dd30eaea3f647971ea963/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/657a4088f679695e591cf470a2220857/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/657a4088f679695e591cf470a2220857/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tamas/Desktop/Android-projekt/RestaurantApp/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/tamas/.gradle/caches/transforms-2/files-2.1/992db3e2a15b3165aa9307f26e155cec/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/tamas/.gradle/caches/transforms-2/files-2.1/69d9bf48442a34e6d14ac40e4ffd3218/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
