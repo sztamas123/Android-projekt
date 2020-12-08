@@ -3,14 +3,17 @@ package com.example.restaurantapp.fragments.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.restaurantapp.R
 import com.example.restaurantapp.model.Restaurant
 import kotlinx.android.synthetic.main.custom_row.view.*
 
-class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
+class ListAdapter(private val context: Fragment): RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
     private var restaurantList = emptyList<Restaurant>()
+
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
@@ -30,6 +33,8 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         holder.itemView.title_txt.text = currentItem.title
         holder.itemView.address_txt.text = currentItem.address
         holder.itemView.price_txt.text = currentItem.price.toString()
+        Glide.with(context).load(currentItem.image).into(holder.itemView.imageVIewList)
+        
 
         holder.itemView.rowLayout.setOnClickListener{
             val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)

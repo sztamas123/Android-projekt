@@ -6,14 +6,14 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.restaurantapp.model.Restaurant
 
-@Database(entities = [Restaurant::class], version = 1, exportSchema = false)
+@Database(entities = [Restaurant::class], version = 3, exportSchema = false)
 abstract class RestaurantDatabase: RoomDatabase() {
 
     abstract fun restaurantDao(): RestaurantDao
 
     companion object{
         @Volatile
-        private var INSTANCE: RestaurantDatabase? = null
+        var INSTANCE: RestaurantDatabase? = null
 
         fun getDatabase(context: Context): RestaurantDatabase{
             val tempInstance = INSTANCE
@@ -25,7 +25,7 @@ abstract class RestaurantDatabase: RoomDatabase() {
                     context.applicationContext,
                     RestaurantDatabase::class.java,
                     "restaurant_database"
-                ).build()
+                ).fallbackToDestructiveMigration().build()
                 INSTANCE = instance
                 return instance
             }

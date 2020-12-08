@@ -38,5 +38,8 @@ class ListFragmentDirections private constructor() {
 
     fun actionListFragmentToUpdateFragment(currentRestaurant: Restaurant): NavDirections =
         ActionListFragmentToUpdateFragment(currentRestaurant)
+
+    fun actionListFragmentToProfileFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_listFragment_to_profileFragment)
   }
 }

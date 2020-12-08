@@ -1679,12 +1679,14 @@ id action_context_bar
 id action_divider
 id action_image
 id action_listFragment_to_addFragment
+id action_listFragment_to_profileFragment
 id action_listFragment_to_updateFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_profileFragment_to_listFragment
 id action_text
 id action_updateFragment_to_listFragment
 id actions
@@ -1695,6 +1697,7 @@ id addRestaurantAddress_et
 id addRestaurantName_et
 id addRestaurantPrice_et
 id add_btn
+id address
 id address_txt
 id alertTitle
 id aligned
@@ -1715,6 +1718,9 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btn_modify
+id btn_profile
+id btn_update
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1774,6 +1780,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
 id end
 id end_padder
 id enterAlways
@@ -1796,6 +1803,7 @@ id fragment
 id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -1813,6 +1821,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageVIewList
+id imageView
+id imageViewUpdate
+id image_profile
+id img_btn
 id info
 id invisible
 id italic
@@ -1865,6 +1878,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id my_nav
+id name
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
@@ -1892,7 +1906,9 @@ id percent
 id pin
 id position
 id postLayout
+id prhoneNr
 id price_txt
+id profileFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -2103,6 +2119,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add
 layout fragment_list
+layout fragment_profile
 layout fragment_update
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

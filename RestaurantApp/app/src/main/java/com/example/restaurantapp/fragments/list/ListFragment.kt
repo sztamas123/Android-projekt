@@ -26,7 +26,7 @@ class ListFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_list, container, false)
 
         //Recycler VIew
-        val adapter = ListAdapter()
+        val adapter = ListAdapter(this)
         val recyclerView = view.recyclerview
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(requireContext())

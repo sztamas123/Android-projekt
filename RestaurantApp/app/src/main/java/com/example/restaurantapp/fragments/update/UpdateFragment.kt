@@ -1,15 +1,22 @@
 package com.example.restaurantapp.fragments.update
 
+import android.app.Activity
 import android.app.AlertDialog
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
 import android.text.Editable
 import android.text.TextUtils
+import android.util.Log
 import android.view.*
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.bumptech.glide.Glide
 import com.example.restaurantapp.R
 import com.example.restaurantapp.model.Restaurant
 import com.example.restaurantapp.viewmodel.RestaurantViewModel
@@ -22,6 +29,8 @@ class UpdateFragment : Fragment() {
     private val args by navArgs<UpdateFragmentArgs>()
 
     private lateinit var mRestaurantViewModel: RestaurantViewModel
+    private lateinit var imageUri: Uri
+    private lateinit var img: ImageView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,6 +44,11 @@ class UpdateFragment : Fragment() {
         view.updateRestaurantName_et.setText(args.currentRestaurant.title)
         view.updateRestaurantAddress_et.setText(args.currentRestaurant.address)
         view.updateRestaurantPrice_et.setText(args.currentRestaurant.price.toString())
+        view.btn_update.setOnClickListener{
+            val gallery = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI)
+            startActivityForResult(gallery, 100)
+        }
+        img = view.imageViewUpdate
 
         view.update_btn.setOnClickListener{
             updateItem()
@@ -51,9 +65,10 @@ class UpdateFragment : Fragment() {
         val title = updateRestaurantName_et.text.toString()
         val address = updateRestaurantAddress_et.text.toString()
         val price = Integer.parseInt(updateRestaurantPrice_et.text.toString())
+        val image = imageUri.toString()
 
-        if (inputCheck(title, address, updateRestaurantPrice_et.text)){
-            val updateRestaurant = Restaurant(args.currentRestaurant.id, title, address, price)
+        if (inputCheck(title, address, updateRestaurantPrice_et.text, image)){
+            val updateRestaurant = Restaurant(args.currentRestaurant.id, title, address, price, image)
 
             //Update
             mRestaurantViewModel.updateRestaurant(updateRestaurant)
@@ -66,8 +81,8 @@ class UpdateFragment : Fragment() {
         }
     }
 
-    private fun inputCheck(title: String, address: String, price: Editable): Boolean {
-        return !(TextUtils.isEmpty(title) && TextUtils.isEmpty(address) && price.isEmpty())
+    private fun inputCheck(title: String, address: String, price: Editable, image: String): Boolean {
+        return !(TextUtils.isEmpty(title) && TextUtils.isEmpty(address) && price.isEmpty() && TextUtils.isEmpty(image))
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -93,4 +108,14 @@ class UpdateFragment : Fragment() {
         builder.setMessage("Are you sure you want to delete ${args.currentRestaurant.title}?")
         builder.create().show()
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (resultCode == Activity.RESULT_OK && requestCode == 100){
+            imageUri = data?.data!!
+            Glide.with(requireContext()).load(imageUri).into(img)
+            Log.d("size",img.width.toString() + "  "+ img.height.toString())
+        }
+    }
+
 }
