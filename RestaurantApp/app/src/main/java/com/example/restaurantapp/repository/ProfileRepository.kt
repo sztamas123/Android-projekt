@@ -7,7 +7,7 @@ import com.example.restaurantapp.model.Profile
 
 class ProfileRepository(private val profileDao: ProfileDao) {
 
-    val readAllData: LiveData<List<Profile>> = profileDao.readALlData()
+    val readAllData: LiveData<List<Profile>> = profileDao.readAllData()
 
     suspend fun addProfile(profile: Profile){
         profileDao.addProfile(profile)

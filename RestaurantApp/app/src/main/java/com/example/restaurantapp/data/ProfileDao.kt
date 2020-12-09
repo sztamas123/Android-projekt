@@ -15,7 +15,7 @@ interface ProfileDao {
     suspend fun addProfile(profile: Profile)
 
     @Query("SELECT * FROM  profile_table ORDER BY id ASC")
-    fun readALlData(): LiveData<List<Profile>>
+    fun readAllData(): LiveData<List<Profile>>
 
     @Query("SELECT * FROM profile_table WHERE name == name AND address == address")
     fun getProfile(name: String, address: String) :Profile

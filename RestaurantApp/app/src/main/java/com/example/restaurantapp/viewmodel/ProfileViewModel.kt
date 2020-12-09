@@ -18,7 +18,8 @@ class ProfileViewModel(application: Application): AndroidViewModel(application){
     val readAllData: LiveData<List<Profile>>
 
     init {
-        val profileDao = ProfileDatabase.getDatabase(application).profileDao()
+        val profileDao = ProfileDatabase.getDatabase(
+            application).profileDao()
         repository = ProfileRepository(profileDao)
 
         readAllData = repository.readAllData

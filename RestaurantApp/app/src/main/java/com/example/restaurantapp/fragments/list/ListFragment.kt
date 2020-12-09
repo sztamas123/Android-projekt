@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.restaurantapp.R
+import com.example.restaurantapp.model.ViewModelFactory
 import com.example.restaurantapp.viewmodel.RestaurantViewModel
 import kotlinx.android.synthetic.main.fragment_list.view.*
 
@@ -33,7 +34,9 @@ class ListFragment : Fragment() {
 
 
         //RestaurantViewMOdel
-        mRestaurantViewModel = ViewModelProvider(this).get(RestaurantViewModel::class.java)
+        activity?.application?.let { app ->
+            mRestaurantViewModel = ViewModelProvider(this, ViewModelFactory(app)).get(RestaurantViewModel::class.java)
+        }
         mRestaurantViewModel.readAllData.observe(viewLifecycleOwner, Observer {restaurant ->
             adapter.setData(restaurant)
         })
