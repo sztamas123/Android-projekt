@@ -1667,6 +1667,7 @@ id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
 id action_addFragment_to_listFragment
+id action_addProfileFragment_to_profileFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1679,6 +1680,7 @@ id action_context_bar
 id action_divider
 id action_image
 id action_listFragment_to_addFragment
+id action_listFragment_to_addProfileFragment
 id action_listFragment_to_profileFragment
 id action_listFragment_to_updateFragment
 id action_menu_divider
@@ -1686,6 +1688,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_profileFragment_to_addProfileFragment
 id action_profileFragment_to_listFragment
 id action_text
 id action_updateFragment_to_listFragment
@@ -1693,6 +1696,7 @@ id actions
 id activity_chooser_view_content
 id add
 id addFragment
+id addProfileFragment
 id addRestaurantAddress_et
 id addRestaurantName_et
 id addRestaurantPrice_et
@@ -1908,6 +1912,13 @@ id position
 id postLayout
 id prhoneNr
 id price_txt
+id prof_address
+id prof_btn
+id prof_email
+id prof_img
+id prof_name
+id prof_phoneNr
+id prof_save_btn
 id profileFragment
 id progress_circular
 id progress_horizontal
@@ -2118,6 +2129,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add
+layout fragment_add_profile
 layout fragment_list
 layout fragment_profile
 layout fragment_update

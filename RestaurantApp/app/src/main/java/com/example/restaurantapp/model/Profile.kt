@@ -9,11 +9,15 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 @Entity(tableName = "profile_table")
 data class Profile(
-    @PrimaryKey(autoGenerate = true)
-    val id: Int,
     val name: String,
     val image: String,
     val address: String,
-    val phoneNr: String,
+    val phoneNumber: String,
     val email: String
 ) : Parcelable
+
+{
+    override fun toString(): String {
+        return super.toString()
+    }
+}

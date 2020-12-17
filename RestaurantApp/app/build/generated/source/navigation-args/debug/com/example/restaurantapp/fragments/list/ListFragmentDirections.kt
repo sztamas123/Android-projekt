@@ -41,5 +41,8 @@ class ListFragmentDirections private constructor() {
 
     fun actionListFragmentToProfileFragment(): NavDirections =
         ActionOnlyNavDirections(R.id.action_listFragment_to_profileFragment)
+
+    fun actionListFragmentToAddProfileFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_listFragment_to_addProfileFragment)
   }
 }

@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_listFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_addProfileFragment"
+            app:destination="@id/addProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
@@ -49,5 +52,17 @@
         <action
             android:id="@+id/action_profileFragment_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_addProfileFragment"
+            app:destination="@id/addProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addProfileFragment"
+        android:name="com.example.restaurantapp.fragments.add.AddProfileFragment"
+        android:label="fragment_add_profile"
+        tools:layout="@layout/fragment_add_profile" >
+        <action
+            android:id="@+id/action_addProfileFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 </navigation>

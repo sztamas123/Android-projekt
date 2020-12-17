@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.restaurantapp.R
-import com.example.restaurantapp.model.ViewModelFactory
+import com.example.restaurantapp.data.SqLiteHandler
 import com.example.restaurantapp.viewmodel.RestaurantViewModel
 import kotlinx.android.synthetic.main.fragment_list.view.*
 
@@ -20,8 +20,8 @@ class ListFragment : Fragment() {
     private lateinit var mRestaurantViewModel: RestaurantViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_list, container, false)
@@ -32,11 +32,17 @@ class ListFragment : Fragment() {
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
+        view.btn_profile.setOnClickListener{
+            val sqlite = SqLiteHandler(requireContext())
+            if (sqlite.getProfile() == null){
+                findNavController().navigate(R.id.action_listFragment_to_addProfileFragment)
+            } else{
+            findNavController().navigate(R.id.action_listFragment_to_profileFragment)
+        }
+        }
 
         //RestaurantViewMOdel
-        activity?.application?.let { app ->
-            mRestaurantViewModel = ViewModelProvider(this, ViewModelFactory(app)).get(RestaurantViewModel::class.java)
-        }
+        mRestaurantViewModel = ViewModelProvider(this).get(RestaurantViewModel::class.java)
         mRestaurantViewModel.readAllData.observe(viewLifecycleOwner, Observer {restaurant ->
             adapter.setData(restaurant)
         })
@@ -50,6 +56,7 @@ class ListFragment : Fragment() {
 
         return view
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.delete_menu, menu)

@@ -8,5 +8,8 @@ class ProfileFragmentDirections private constructor() {
   companion object {
     fun actionProfileFragmentToListFragment(): NavDirections =
         ActionOnlyNavDirections(R.id.action_profileFragment_to_listFragment)
+
+    fun actionProfileFragmentToAddProfileFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_profileFragment_to_addProfileFragment)
   }
 }
