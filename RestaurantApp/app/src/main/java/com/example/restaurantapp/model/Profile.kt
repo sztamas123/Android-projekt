@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
-
+//Creating entity
 @Parcelize
 @Entity(tableName = "profile_table")
 data class Profile(

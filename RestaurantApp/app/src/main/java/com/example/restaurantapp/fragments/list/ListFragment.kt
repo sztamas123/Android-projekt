@@ -43,6 +43,8 @@ class ListFragment : Fragment() {
 
         //RestaurantViewMOdel
         mRestaurantViewModel = ViewModelProvider(this).get(RestaurantViewModel::class.java)
+        //Observing live data objects and when data changes(add, delete...) use the adapter
+        //to set the data to that new value
         mRestaurantViewModel.readAllData.observe(viewLifecycleOwner, Observer {restaurant ->
             adapter.setData(restaurant)
         })
@@ -69,6 +71,7 @@ class ListFragment : Fragment() {
         return super.onOptionsItemSelected(item)
     }
 
+    //Delete every restaurant from the database method
     private fun deleteAllUsers() {
         val builder = AlertDialog.Builder(requireContext())
         builder.setPositiveButton("Yes"){_, _ ->

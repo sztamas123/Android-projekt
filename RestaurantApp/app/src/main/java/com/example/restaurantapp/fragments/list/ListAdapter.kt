@@ -11,6 +11,8 @@ import com.example.restaurantapp.R
 import com.example.restaurantapp.model.Restaurant
 import kotlinx.android.synthetic.main.custom_row.view.*
 
+//Recycler view adapter
+
 class ListAdapter(private val context: Fragment): RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
     private var restaurantList = emptyList<Restaurant>()
 
@@ -36,6 +38,7 @@ class ListAdapter(private val context: Fragment): RecyclerView.Adapter<ListAdapt
         Glide.with(context).load(currentItem.image).into(holder.itemView.imageVIewList)
         
 
+        //Pass restaurant object to update fragment
         holder.itemView.rowLayout.setOnClickListener{
             val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
             holder.itemView.findNavController().navigate(action)

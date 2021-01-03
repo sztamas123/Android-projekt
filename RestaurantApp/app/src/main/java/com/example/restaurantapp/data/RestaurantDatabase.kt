@@ -6,6 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.restaurantapp.model.Restaurant
 
+
+//Main access point to the app's data
+
 @Database(entities = [Restaurant::class], version = 3, exportSchema = false)
 abstract class RestaurantDatabase: RoomDatabase() {
 

@@ -11,6 +11,9 @@ import com.example.restaurantapp.model.Restaurant
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+//Role of viewmodel is to provide data to the UI
+//Communication center between the repository and the UI
+
 class RestaurantViewModel(application: Application): AndroidViewModel(application) {
 
     val readAllData: LiveData<List<Restaurant>>

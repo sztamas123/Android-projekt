@@ -54,13 +54,14 @@ class UpdateFragment : Fragment() {
             updateItem()
         }
 
-        //MEnu
+        //Add menu
         setHasOptionsMenu(true)
 
 
         return view
     }
 
+    //Update restaurant method
     private fun updateItem(){
         val title = updateRestaurantName_et.text.toString()
         val address = updateRestaurantAddress_et.text.toString()
@@ -68,11 +69,11 @@ class UpdateFragment : Fragment() {
         val image = imageUri.toString()
 
         if (inputCheck(title, address, updateRestaurantPrice_et.text, image)){
+            //Create resturant object
             val updateRestaurant = Restaurant(args.currentRestaurant.id, title, address, price, image)
-
-            //Update
+            //Update restaurant
             mRestaurantViewModel.updateRestaurant(updateRestaurant)
-            //Nav back
+            //Navigate back
             findNavController().navigate(R.id.action_updateFragment_to_listFragment)
             Toast.makeText(requireContext(), "Succesfully updated!", Toast.LENGTH_SHORT).show()
         } else{
@@ -81,6 +82,7 @@ class UpdateFragment : Fragment() {
         }
     }
 
+    //Check if input is correct
     private fun inputCheck(title: String, address: String, price: Editable, image: String): Boolean {
         return !(TextUtils.isEmpty(title) && TextUtils.isEmpty(address) && price.isEmpty() && TextUtils.isEmpty(image))
     }
@@ -89,6 +91,7 @@ class UpdateFragment : Fragment() {
         inflater.inflate(R.menu.delete_menu, menu)
     }
 
+    //Handle clicks on delete menu
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.menu_delete){
             deleteRestaurant()
@@ -96,6 +99,7 @@ class UpdateFragment : Fragment() {
         return super.onOptionsItemSelected(item)
     }
 
+    //Delte restaurant from database method
     private fun deleteRestaurant() {
         val builder = AlertDialog.Builder(requireContext())
         builder.setPositiveButton("Yes"){_, _ ->

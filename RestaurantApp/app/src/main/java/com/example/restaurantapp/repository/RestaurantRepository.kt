@@ -4,6 +4,8 @@ import androidx.lifecycle.LiveData
 import com.example.restaurantapp.data.RestaurantDao
 import com.example.restaurantapp.model.Restaurant
 
+//Abstracts access to multiple data sources
+
 class RestaurantRepository(private val restaurantDao: RestaurantDao) {
 
     val readAllData: LiveData<List<Restaurant>> = restaurantDao.readAllData()

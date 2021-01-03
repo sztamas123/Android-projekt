@@ -49,6 +49,7 @@ class AddProfileFragment : Fragment() {
         return view
     }
 
+    //Add profile to databse method
     fun insertProfile(){
         val name = prof_name.text.toString()
         val address = prof_address.text.toString()

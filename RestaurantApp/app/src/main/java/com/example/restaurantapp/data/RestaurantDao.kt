@@ -4,6 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.restaurantapp.model.Restaurant
 
+//DAO - data acces object
+//Methods used to acces the database
+
 
 @Dao
 interface RestaurantDao {

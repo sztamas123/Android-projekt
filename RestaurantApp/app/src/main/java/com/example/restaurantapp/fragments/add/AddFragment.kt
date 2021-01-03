@@ -53,6 +53,7 @@ class AddFragment : Fragment() {
         return view
     }
 
+    //Add data to DB
     private fun insertDataToDatabase(){
         val title = addRestaurantName_et.text.toString()
         val address = addRestaurantAddress_et.text.toString()
@@ -77,6 +78,7 @@ class AddFragment : Fragment() {
         }
     }
 
+    //Check if input is correct
     private fun inputCheck(title: String, address: String, price: Editable): Boolean {
         return !(TextUtils.isEmpty(title) && TextUtils.isEmpty(address) && price.isEmpty())
     }
